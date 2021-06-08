@@ -27,7 +27,7 @@ public class GitDemo {
      * @param - description of passed in arguments go here
      * @return - description of return value goes here
      *****/
-    public void templateFunction(int num) {
+    public void function1(int num) {
         double newNumber = 1;
         
         for (int i = 0; i <= num, i++) {
@@ -35,5 +35,17 @@ public class GitDemo {
         }
         
         return newNumber;
+    }
+  
+    public void function2(int num) {
+       double factorialNumber = 0;
+        
+        while (num != 0) {
+            double temp % 10;
+            factorialNumber = factorialNumber * 10 + temp;
+            num /= 10;
+        }
+        
+        return factorialNumber;
     }
 }

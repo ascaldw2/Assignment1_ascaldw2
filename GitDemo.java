@@ -1,5 +1,5 @@
 /*****
- * Edit this line to have your name.
+ * Alexia Caldwell
  ******/
 public class GitDemo {
     
@@ -18,7 +18,7 @@ public class GitDemo {
     *****/
     public double addNumber(double num) {
         System.out.print("Add num to previousNumber");
-        return 0;
+        return previousNumber + num;
     }
     
     /*****
@@ -27,8 +27,18 @@ public class GitDemo {
      * @param - description of passed in arguments go here
      * @return - description of return value goes here
      *****/
-    public void templateFunction(int num) {
-        double factorialNumber = 0;
+    public void function1(int num) {
+        double newNumber = 1;
+        
+        for (int i = 0; i <= num, i++) {
+            newNumber *= i;
+        }
+        
+        return newNumber;
+    }
+  
+    public void function2(int num) {
+       double factorialNumber = 0;
         
         while (num != 0) {
             double temp % 10;
@@ -37,6 +47,5 @@ public class GitDemo {
         }
         
         return factorialNumber;
-        
     }
 }
